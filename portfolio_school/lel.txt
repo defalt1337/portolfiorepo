@@ -1,0 +1,45 @@
+https://codepen.io/h3xc0ntr0l/details/BoNEXq
+
+//navbar integrity
+
+
+background-image:url('../media/VC03Kas.gif');
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  text-align: center !important;
+  color: white;
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only"></a></li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">Contact <span class="sr-only"></a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container">
+      <form action="#">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="firstname" required placeholder="your firstname">
+        <label for="sname">Second Name</label>
+        <input type="text" id="sname" name="secondname" required placeholder="your secondname">
+      </form>
+    </div>
