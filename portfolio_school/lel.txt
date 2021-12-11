@@ -43,3 +43,10 @@ background-image:url('../media/VC03Kas.gif');
         <input type="text" id="sname" name="secondname" required placeholder="your secondname">
       </form>
     </div>
+
+
+
+
+
+//$mysqli = mysqli_connect($mysql_host,$mysql_user,$mysql_pss);
+//extract($_POST['submit_in']);

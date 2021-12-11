@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<?php
+include '../php_helper_pages/support_pages_head.php';
+?>
     <link rel="stylesheet" href="../style/progress.css">
-    <link rel="stylesheet" href="../style/navbar.css">
-    <script type="text/javascript" src="../script/index.js"></script>
-    <link rel="icon" href="../media/cyberpunk.png" type="x-image/icon">
     <title>Progress</title>
   </head>
   <body>
@@ -17,26 +9,25 @@
       <div class="header">
         <div class="logo">Project</div>
         <div class="menu">
-        <a href="../index.html" class="link">
+        <a href="../index.php" class="link">
             <div class="title">Home</div>
             <div class="bar"></div>
         </a>
-        <a href="../page/about.html" class="link">
+        <a href="about.php" class="link">
           <div class="title">About</div>
           <div class="bar"></div>
         </a>
-        <a href="../page/progress.html" class="link">
+        <a href="progress.php" class="link">
           <div class="title">Progress</div>
           <div class="bar"></div>
         </a>
-        <a href="../page/contact.html" class="link">
+        <a href="contact.php" class="link">
           <div class="title">Contact</div>
           <div class="bar"></div>
         </a>
         </div>
       </div>
       <div class="progressbar">Progress ...</div>
-    </main>
     <div class="section group">
         <div class="col span_1of3"><img src="../media/CodeSnippetsScreenshot1.png" alt="codesnippet" class="codesnippet"></div>
         <div class="col span_1of3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique corporis, iste rerum nemo quidem cupiditate quos debitis reprehenderit nesciunt quas nulla laborum ullam deserunt, labore architecto! Sit voluptatem omnis nisi?</div>
@@ -278,5 +269,6 @@
       </div>
     </footer> -->
     <div class="footer-copyright text-right py-3">All rights reserved</div>
+    </main>
   </body>
 </html>

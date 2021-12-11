@@ -1,3 +1,6 @@
+<?php
+include 'database/connect.php';
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -18,19 +21,19 @@
       <div class="header">
         <div class="logo">Project</div>
         <div class="menu">
-        <a href="../index.html" class="link">
+        <a href="../index.php" class="link">
             <div class="title">Home</div>
             <div class="bar"></div>
         </a>
-        <a href="../page/about.html" class="link">
+        <a href="about.php" class="link">
           <div class="title">About</div>
           <div class="bar"></div>
         </a>
-        <a href="../page/progress.html" class="link">
+        <a href="progress.php" class="link">
           <div class="title">Progress</div>
           <div class="bar"></div>
         </a>
-        <a href="../page/contact.html" class="link">
+        <a href="contact.php" class="link">
           <div class="title">Contact</div>
           <div class="bar"></div>
         </a>
@@ -38,7 +41,7 @@
       </div>
       <div class="container-contact100">
         <div class="wrap-contact100">
-          <form class="contact100-form validate-form">
+          <form method="post" action="../database/connect.php" class="contact100-form validate-form">
             <span class="contact100-form-title">Contact us</span>
             <div class="wrap-input100 validate-input" data-validate="Name required">
               <span class="label-input100">Your name</span>
@@ -71,18 +74,22 @@
             <div class="container-contact100-form-btn">
               <div class="wrap-contact100-form-btn">
                 <div class="contact100-form-bgbtn"></div>
-                <button class="contact100-form-btn">
+                <button class="contact100-form-btn" type="submit">
                   <span>submit
                     <i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"></i>
                   </span>
                 </button>
               </div>
-
             </div>
+            <button name="megyeget">
+              <span>kuldjed szep ocsem
+              <i aria-hidden="true"></i>
+              </span>
+            </button>
           </form>
         </div>
       </div>
-    </main>
     <div class="footer-copyright text-right py-3">All rights reserved</div>
+    </main>
   </body>
 </html>

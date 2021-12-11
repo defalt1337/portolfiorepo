@@ -1,34 +1,34 @@
 <?php
 include 'php_helper_pages/index_nav.php';
 ?>
-    <title>Home</title>
-  </head>
-  <body>
-    <main>
-      <div class="header">
-        <div class="logo">
-          Project
-        </div>
-        <div class="menu">
-        <a href="index.html" class="link">
+<title>Home</title>
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <div class="logo">
+        Project
+      </div>
+      <div class="menu">
+        <a href="index.php" class="link">
           <div class="title">Home</div>
           <div class="bar"></div>
         </a>
-        <a href="page/about.html" class="link">
+        <a href="page/about.php" class="link">
           <div class="title">About</div>
           <div class="bar"></div>
         </a>
-        <a href="page/progress.html" class="link">
+        <a href="page/progress.php" class="link">
           <div class="title">Progress</div>
           <div class="bar"></div>
         </a>
-        <a href="page/contact.html" class="link">
+        <a href="page/contact.php" class="link">
           <div class="title">Contact</div>
           <div class="bar"></div>
         </a>
-        </div>
       </div>
-    </main>
+    </div>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -54,5 +54,7 @@ include 'php_helper_pages/index_nav.php';
       </div>
     </footer> -->
     <div class="footer-copyright text-right py-3">All rights reserved</div>
-  </body>
+  </main>
+</body>
+
 </html>
