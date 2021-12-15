@@ -1,5 +1,6 @@
 <?php
 include 'database/connect.php';
+include 'database/upload.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -41,22 +42,22 @@ include 'database/connect.php';
       </div>
       <div class="container-contact100">
         <div class="wrap-contact100">
-          <form method="post" action="../database/connect.php" class="contact100-form validate-form">
+          <form method="post" action="../database/upload.php" class="contact100-form validate-form">
             <span class="contact100-form-title">Contact us</span>
             <div class="wrap-input100 validate-input" data-validate="Name required">
               <span class="label-input100">Your name</span>
-              <input type="text" name="name" class="input100" required placeholder="Enter your name">
+              <input type="text" name="name" class="input100" value="<?php $name;?>" required placeholder="Enter your name">
               <span class="focus-input100"></span>
             </div>
             <div class="wrap-input100 validate-input" data-validate="Mail required">
               <span class="label-input100">Your e-mail</span>
-              <input type="text" name="mail" class="input100" required placeholder="Enter your mail address">
+              <input type="text" name="mail" class="input100" value="<?php $e_mail;?>" required placeholder="Enter your mail address">
               <span class="focus-input100"></span>
             </div>
             <div class="wrap-input100 input100-select">
               <span class="lable-input100">Topic</span>
               <div>
-                <select class="selection-2" name="service">
+                <select class="selection-2" name="service" value="<?php $topic;?>">
                   <option>Question</option>
                   <option>Meat</option>
                   <option>Dunno what</option>
@@ -68,20 +69,20 @@ include 'database/connect.php';
             </div>
             <div class="wrap-input100 validate-input" data-validate="Message needed">
               <span class="label-input100">Message</span>
-              <textarea class="input100" name="message" placeholder="your message goes here"></textarea>
+              <textarea class="input100" name="message" value="<?php $message;?>" placeholder="your message goes here"></textarea>
               <span class="focus-input100"></span>
             </div>
             <div class="container-contact100-form-btn">
               <div class="wrap-contact100-form-btn">
                 <div class="contact100-form-bgbtn"></div>
-                <button class="contact100-form-btn" type="submit">
+                <button class="contact100-form-btn" name="megyeget" type="submit">
                   <span>submit
                     <i class="fa fa-long-arrow-right m-1-7" aria-hidden="true"></i>
                   </span>
                 </button>
               </div>
             </div>
-            <button name="megyeget">
+            <button name="megyeget1">
               <span>kuldjed szep ocsem
               <i aria-hidden="true"></i>
               </span>

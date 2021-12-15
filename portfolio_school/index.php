@@ -46,13 +46,6 @@ include 'php_helper_pages/index_nav.php';
         </div>
       </div>
     </div>
-    <!-- <footer class="footer">
-      <div class="container">
-        <span class="text-muted">
-          All rights reserved
-        </span>
-      </div>
-    </footer> -->
     <div class="footer-copyright text-right py-3">All rights reserved</div>
   </main>
 </body>
