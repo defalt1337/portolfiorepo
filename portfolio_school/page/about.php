@@ -28,7 +28,7 @@ include '../php_helper_pages/support_pages_head.php';
         </div>
       </div>
     <div class="headerimage">
-        <img src="../media/desktop-wallpaper-clip-art-thinking-woman.jpg" alt="hdrimg" class="rounded mx-auto d-block">
+        <img src="../media/teregetes.heic" alt="hdrimg" class="rounded mx-auto d-block">
     </div>
     <div class="section group">
         <div class="col span_1of3"></div>
