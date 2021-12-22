@@ -1,13 +1,13 @@
 <?php
-include 'connect.php';
-$conn = connectit();
+require 'connect.php';
+//$conn = connectit();
 ini_set('error_reporting', E_ALL);
 ini_set( 'display_errors', 1 );
 
 global $name,$mail,$topic,$message,$date;
 
 
-function sqlinsert(){
+function sqlinsert($conn){
     $sql = "INSERT into guests (name,mail,topic,message,created_date) VALUES ('".$name."','".$mail."','".$topic."','".$message."','".$date('Y-m-d')."') ";
     $done = $conn->query($sql);
 
@@ -20,4 +20,5 @@ function sqlinsert(){
     $conn->close();
 }
 sqlinsert();
+session_destroy();
 ?>

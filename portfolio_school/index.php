@@ -1,5 +1,7 @@
 <?php
 include 'php_helper_pages/index_nav.php';
+include 'database/connect.php';
+include 'database/upload.php';
 ?>
 <title>Home</title>
 </head>

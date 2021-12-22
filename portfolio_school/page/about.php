@@ -32,7 +32,7 @@ include '../php_helper_pages/support_pages_head.php';
     </div>
     <div class="section group">
         <div class="col span_1of3"></div>
-        <div class="col span_1of3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique corporis, iste rerum nemo quidem cupiditate quos debitis reprehenderit nesciunt quas nulla laborum ullam deserunt, labore architecto! Sit voluptatem omnis nisi?</div>
+        <div class="col span_1of3">Szervusz, Brandon vagyok, pontosabban, Berényi. :) Üdvözöllek a portfólió oldalamon, kérlek, ha bármi kérésed lenne velem vagy az oldallal kapcsolatban a "Contact Us" fülön keresztül jelezheted felém.</div>
         <div class="col span_1of3">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minima accusamus voluptates nostrum mollitia inventore natus aliquam hic asperiores, dolores vitae ipsam iure facilis repudiandae quisquam dicta eum. Fugit, rem.
