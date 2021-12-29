@@ -21,7 +21,7 @@ include '../database/upload.php';
 <body>
   <main>
     <div class="header">
-      <div class="logo">Project</div>
+      <div class="logo">Contact</div>
       <div class="menu">
         <a href="../index.php" class="link">
           <div class="title">Home</div>

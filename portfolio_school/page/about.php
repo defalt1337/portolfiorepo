@@ -8,7 +8,7 @@ include '../php_helper_pages/support_pages_head.php';
 <body>
   <main>
     <div class="header">
-      <div class="logo">Project</div>
+      <div class="logo">About</div>
       <div class="menu">
         <a href="../index.php" class="link">
           <div class="title">Home</div>
