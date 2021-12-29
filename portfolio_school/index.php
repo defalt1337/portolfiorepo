@@ -1,7 +1,5 @@
 <?php
 include 'php_helper_pages/index_nav.php';
-include 'database/connect.php';
-include 'database/upload.php';
 ?>
 <title>Home</title>
 </head>
@@ -10,7 +8,7 @@ include 'database/upload.php';
   <main>
     <div class="header">
       <div class="logo">
-        Project
+      <a style="color: #0f0f0f;" href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>    <span class="wrap"></span> </a>
       </div>
       <div class="menu">
         <a href="index.php" class="link">
