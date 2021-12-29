@@ -57,4 +57,3 @@ function uploadingIt(){
     die();
     $conn->close();
 }
-?>

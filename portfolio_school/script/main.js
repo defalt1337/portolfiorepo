@@ -1,8 +1,8 @@
-(function ($){
+(function ($) {
   "use strict";
-  $('.input100').each(function(){
-    $(this).on('blur',function(){
-      if ($(this).val().trim() !="") {
+  $('.input100').each(function () {
+    $(this).on('blur', function () {
+      if ($(this).val().trim() != "") {
         $(this).addClass('has-val');
       }
       else {
@@ -14,33 +14,33 @@
   var email = $('.validate-input input[mail="mail"]');
   var message = $('.validate-input textarea[message="message"]');
 
-  $('.validate-form').on('submit',function(){
+  $('.validate-form').on('submit', function () {
     var check = true;
 
     if ($(name).val().trim() == '') {
       showValidate(name);
       check = false;
     }
-    if($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-    showValidate(email);
-    check=false;
+    if ($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+      showValidate(email);
+      check = false;
     }
-    if ($(message).val().trim() =='') {
+    if ($(message).val().trim() == '') {
       showValidate(message);
       check = false;
     }
     return check;
   });
-  $('.validate-form .input100').each(function(){
-    $(this).focus(function(){
+  $('.validate-form .input100').each(function () {
+    $(this).focus(function () {
       hideValidate(this);
     });
   });
-  function showValidate(input){
+  function showValidate(input) {
     var thisAlert = $(input).parent();
     $(thisAlert).addClass('alert-validate');
   }
-  function hideValidate(input){
+  function hideValidate(input) {
     var thisAlert = $(input).parent();
     $(thisAlert).removeClass('alert-validate');
   }

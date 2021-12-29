@@ -1,6 +1,5 @@
 <?php
-include 'database/connect.php';
-include 'database/upload.php';
+include '../database/upload.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -82,11 +81,6 @@ include 'database/upload.php';
                 </button>
               </div>
             </div>
-            <button name="megyeget1">
-              <span>kuldjed szep ocsem
-              <i aria-hidden="true"></i>
-              </span>
-            </button>
           </form>
         </div>
       </div>
