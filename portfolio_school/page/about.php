@@ -36,7 +36,13 @@ include '../php_helper_pages/support_pages_head.php';
       <div class="col span_1of3">Szervusz, Brandon vagyok, pontosabban, Berényi. :) Üdvözöllek a portfólió oldalamon, kérlek, ha bármi kérésed lenne velem vagy az oldallal kapcsolatban a "Contact Us" fülön keresztül jelezheted felém.</div>
       <div class="col span_1of3">
         <p>
-          Ide kellene majd valami leiras jozsi
+          23 eves vagyok, jelenleg szoftverfejleszto tanulmanyaimat vegzem a SZAMALK suliban. Lassan 8 eve tevekenykedem informatikaval, azon belul is szoftverfejlesztessel.
+        </p>
+        <p>
+          Szamos programnyelvel talalkoztam mar, koztuk C#-vel, JAVA-val es hogy kiragadjak egy kicsit mas teruletrol is, szivesen foglalkozom webfejlesztessel, koztuk PHP-val es JS-el.
+        </p>
+        <p>
+          Szeretem onfejleszteni magam, ezert is probalom a legtobb online kurzust elvegezni.
         </p>
       </div>
     </div>
