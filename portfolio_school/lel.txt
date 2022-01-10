@@ -50,3 +50,16 @@ background-image:url('../media/VC03Kas.gif');
 
 //$mysqli = mysqli_connect($mysql_host,$mysql_user,$mysql_pss);
 //extract($_POST['submit_in']);
+
+
+Alabb a szakdolgozatomat mutatom be.
+Egy egyszeru, a szakdolgozat kovetelmenyeinek megfelelo weboldalt hoztam letre.
+A fo lenyege a felhasznalo kezeles ezen belul a felhasznaloi hierarchia felepitesenek bemutatasa.
+Sikerult elerni, hogy az oldalnak kulon adminisztracios felulete van adminok szamara a felhasznalok nyilvantartasara.
+Ki/be jelentkezes mukodo kepes, ha a felhasznalo regisztral akkor a jelszot sem az adminok se senki nem tudja megnezni mivel a regisztracio pillanataban md5-el titkositva kerul az adatbazisba a jelszo.
+Ezen a szakdolgozat temaja a fank rendeles, ezert is lett az a neve, hogy donut service.
+
+
+<a href="https://github.com/defalt1337/szakdogarepo"><button type="submit" class="btn btn-secondary">Tovabb a forraskodhoz</button></a>
+
+/* color: #0f0f0f; */ navbar.css 25 line

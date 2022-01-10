@@ -11,6 +11,7 @@ include 'php_helper_pages/index_nav.php';
         <a style="color: #0f0f0f;" href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'> <span class="wrap"></span> </a>
       </div>
       <div class="menu">
+        <button onclick="darkMode()">xddd</button>
         <a href="index.php" class="link">
           <div class="title">Home</div>
           <div class="bar"></div>

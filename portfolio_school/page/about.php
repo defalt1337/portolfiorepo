@@ -10,6 +10,7 @@ include '../php_helper_pages/support_pages_head.php';
     <div class="header">
       <div class="logo">About</div>
       <div class="menu">
+        <button onclick="darkMode()">xddd</button>
         <a href="../index.php" class="link">
           <div class="title">Home</div>
           <div class="bar"></div>

@@ -31,24 +31,35 @@ include '../php_helper_pages/support_pages_head.php';
     <div class="progressbar">Progress ...</div>
     <div class="section group">
       <div class="col span_1of3"><img src="../media/fingersincircle.jpg" alt="codesnippet" class="codesnippet"></div>
-      <div class="col span_1of3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique corporis, iste rerum nemo quidem cupiditate quos debitis reprehenderit nesciunt quas nulla laborum ullam deserunt, labore architecto! Sit voluptatem omnis nisi?</div>
+      <div class="col span_1of3">Donut Service - OKJ szakdolgozat (2020)</div>
       <div class="col span_1of3">
         <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModalLong">More info</button>
         <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Project example</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Szakdolgozat</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
                 <p>
-                  Valami a programrol
+                <h1>A szakdolgozat bemutatasa:</h1>
+                Egy egyszeru, a szakdolgozat kovetelmenyeinek megfelelo weboldalt hoztam letre.
+                A fo lenyege a felhasznalo kezeles ezen belul a felhasznaloi hierarchia felepitesenek bemutatasa.
+                Sikerult elerni, hogy az oldalnak kulon adminisztracios felulete van adminok szamara a felhasznalok nyilvantartasara.
+                Ki/be jelentkezes mukodo kepes, ha a felhasznalo regisztral akkor a jelszot sem az adminok se senki nem tudja megnezni mivel a regisztracio pillanataban md5-el titkositva kerul az adatbazisba a jelszo.
+                Ezen a szakdolgozat temaja a fank rendeles, ezert is lett az a neve, hogy donut service.
                 </p>
               </div>
               <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="redr()">Source code</button>
+                <script>
+                  function redr(){
+                    window.open('https://github.com/defalt1337/szakdogarepo','_blank');
+                  }
+                </script>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               </div>
             </div>
